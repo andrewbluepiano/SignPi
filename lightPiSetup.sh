@@ -13,4 +13,4 @@ cd pigpio-master
 make
 sudo make install
 (crontab -l; echo '@reboot sudo pigpiod' ) | crontab -
-wget -O /var/www/html/index.php https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/index.php
+sudo wget -O /var/www/html/index.php https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/index.php
