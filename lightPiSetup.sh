@@ -1,3 +1,5 @@
+# Author: Andrew Afonso
+# https://github.com/andrewbluepiano/SignPi
 # On raspbian buster, networking enabled and configed.
 # Just logging setup of RPI to be LED controller in iPod sign.
 # Pins (working on my B+): 
