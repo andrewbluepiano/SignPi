@@ -6,8 +6,9 @@
 # Color: 4 (B), 14 (R), 24 (G)
 # Power: 7
 sudo apt get update 
-sudo apt install apache2
-sudo apt install python-setuptools python3-setuptools
+sudo apt -y install apache2
+sudo apt -y install mariadb-server
+sudo apt -y install python-setuptools python3-setuptools
 wget https://github.com/joan2937/pigpio/archive/master.zip
 unzip master.zip
 rm master.zip
