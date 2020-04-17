@@ -1,0 +1,104 @@
+/* Style for SignPi Control App */
+/* Author: Andrew Afonso */
+
+/* Global */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+footer {
+	width: 100%;
+	position: absolute;
+  	bottom: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    width: 100%;
+    font-weight: bold;
+}
+
+/* General classes */
+.inline * {
+    display: inline;
+}
+
+.block * {
+    display: block;
+}
+
+.noul {
+	list-style-type: none;
+}
+
+.centerText {
+	text-align: center;
+}
+
+.rightText {
+	text-align: right;
+}
+
+.leftText {
+	text-align: left;
+}
+
+
+/* Some I just like to have */
+.vcenter{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.vcenter .vcenterholder {
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Columns */
+.col {
+	margin: 10px 0;
+}
+
+.two_columns, .three_columns, .four_columns, .five_columns {
+	max-width: 900px;
+	display: flex;
+}
+
+.two_columns .col {
+	width: 50%;
+}
+
+.three_columns .col {
+	width: 33%;
+}
+
+.four_columns .col {
+	width: 25%;
+}
+
+.five_columns .col {
+	width: 20%;
+}
+
+/* Responsive Cols */
+@media (max-width: 900px) {
+	.two_columns, .three_columns, .four_columns, .five_columns{
+		flex-wrap: wrap;
+	}
+	.two_columns .col, .three_columns .col, .four_columns .col, .five_columns .col{
+		width: 100%;
+	}
+}
