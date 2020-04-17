@@ -17,3 +17,5 @@ make
 sudo make install
 (crontab -l; echo '@reboot sudo pigpiod' ) | crontab -
 sudo wget -O /var/www/html/index.php https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/index.php
+sudo mkdir /var/www/html/css/
+sudo wget -O /var/www/html/css/style.css https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/style.css
