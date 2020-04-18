@@ -10,6 +10,15 @@ $green = dechex(255 - intval(shell_exec("pigs gdc 24")));
 $brightness = intval(shell_exec("pigs gdc 7"));
 
 $hexcolor = "#" . $red . $green . $blue;
+
+echo $red;
+echo "<br>";
+
+echo $green;
+echo "<br>";
+
+echo $blue;
+echo "<br>";
 ?>
 <!doctype html>
 <head>
