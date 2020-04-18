@@ -6,8 +6,6 @@
 $colorHex = str_replace('#', '', $_POST['lightcolor']);
 $brightness = intval($_POST['lightcolor']);
 
-Example
-
 // If a full hexidecimal value
 if(strlen($colorHex) == 6){
 	// Split the values into their sub RGB values
