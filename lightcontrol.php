@@ -4,7 +4,7 @@
 
 // Remove the pound from the hexidecimal value passed in
 $colorHex = str_replace('#', '', $_POST['lightcolor']);
-$brightness = intval($_POST['lightcolor']);
+$brightness = intval($_POST['brightness']);
 
 // If a full hexidecimal value
 if(strlen($colorHex) == 6){
