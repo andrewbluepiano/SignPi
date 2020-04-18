@@ -1,6 +1,7 @@
 <?php
 // Author: Andrew Afonso
 // Description: A simple controller that sets the colors on a GPIO controlled LED strip on a RasPi
+// https://github.com/andrewbluepiano/SignPi/
 
 // Remove the pound from the hexidecimal value passed in
 $colorHex = str_replace('#', '', $_POST['lightcolor']);
