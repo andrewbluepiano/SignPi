@@ -8,6 +8,7 @@
 sudo apt get update 
 sudo apt -y install apache2
 sudo apt -y install mariadb-server
+sudo apt -y install php libapache2-mod-php php-mysql
 sudo apt -y install python-setuptools python3-setuptools
 wget https://github.com/joan2937/pigpio/archive/master.zip
 unzip master.zip
