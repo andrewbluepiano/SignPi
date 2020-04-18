@@ -5,8 +5,6 @@ For an old iPod store sign.
 
 Runs a verrrrrrryyyyyyy simple web app on the RasPi (just type the Pi's IP into your browser). Nothing else at this point.
 
-I use an amplifier for power management because I'm not an electrical engineer, and just dont wanna deal with that xD.
-
 ### The Sign
 <img src="https://i.imgur.com/yJKfxQL.jpg" width="500" /> 
 
@@ -23,5 +21,6 @@ Sit back, relax, its gonna be done in a bit!
 
 
 ### The Wires
+I use an amplifier for power management because I'm not an electrical engineer, and just dont wanna deal with that xD.
 <img src="https://i.imgur.com/76YU2V7.jpg" width="500" />
 
