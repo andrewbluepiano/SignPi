@@ -3,6 +3,8 @@ For an old iPod store sign I am making remote controlled.
 
 Runs a verrrrrrryyyyyyy simple web app on the RasPi (just type the Pi's IP into your browser). Nothing else at this point.
 
+I use an amplifier for power management because I'm not an electrical engineer, and just dont wanna deal with that xD.
+
 ## Setup
 Intended to be run on a raspberry pi running raspbian buster with networking already setup. This might be done by running the 'sudo raspi-config' command, going to networking, then setting up your wifi. 
 
