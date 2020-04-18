@@ -9,7 +9,7 @@ $green = dechex(255 - intval(shell_exec("pigs gdc 24")));
 
 $brightness = intval(shell_exec("pigs gdc 7"));
 
-$hexcolor = $red . $blue . $green;
+$hexcolor = "#" . $red . $green . $blue;
 ?>
 <!doctype html>
 <head>
@@ -22,8 +22,8 @@ $hexcolor = $red . $blue . $green;
 	<form class="lightcontrols" method="POST" action="scripts/lightcontrol.php">
 		<fieldset>
 			<legend>Light Controls</legend>
-			<label>Color: <input type="color" id="lightcolor" name="lightcolor" value="#ff0000"></label>
-			<label>Brightness: <input type="range" id="brightness" name="brightness" min="0" max="225"></label>
+			<label>Color: <input type="color" id="lightcolor" name="lightcolor" value="<?php echo $hexcolor;?>"></label>
+			<label>Brightness: <input type="range" id="brightness" name="brightness" value="<?php echo $brightness;?>"  min="0" max="225"></label>
 			<input id="updatelights" type="submit" value="Enter">
 		</fieldset>
 	</form>
