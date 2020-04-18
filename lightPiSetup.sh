@@ -5,7 +5,7 @@
 # Pins (working on my B+): 
 # Color: 4 (B), 14 (R), 24 (G)
 # Power: 7
-sudo apt get update 
+sudo apt update 
 sudo apt -y install apache2
 sudo apt -y install mariadb-server
 sudo apt -y install php libapache2-mod-php php-mysql
