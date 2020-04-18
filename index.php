@@ -2,10 +2,10 @@
 /// Author: Andrew Afonso
 // Control page for SignPi
 
-// Get current values of LED Strip, inverting the RGB's as per needed.
-$red = 255 - intval(shell_exec("pigs gdc 14"));
-$blue = 255 - intval(shell_exec("pigs gdc 4");
-$green = 255 - intval(shell_exec("pigs gdc 24"));
+// Get current values of LED Strip, inverting the RGB's as per needed, converting the RGB's to hex.
+$red = dechex(255 - intval(shell_exec("pigs gdc 14")));
+$blue = dechex(255 - intval(shell_exec("pigs gdc 4")));
+$green = dechex(255 - intval(shell_exec("pigs gdc 24")));
 
 $brightness = intval(shell_exec("pigs gdc 7"));
 ?>
