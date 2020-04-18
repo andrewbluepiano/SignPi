@@ -6,7 +6,6 @@
 $hexcolor = sprintf("#%02x%02x%02x", (255 - intval(shell_exec("pigs gdc 14"))), (255 - intval(shell_exec("pigs gdc 4"))), (255 - intval(shell_exec("pigs gdc 24"))));
 
 $brightness = intval(shell_exec("pigs gdc 7"));
-
 ?>
 <!doctype html>
 <head>
