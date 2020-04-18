@@ -16,10 +16,12 @@ if(strlen($colorHex) == 6){
 	$green = 255 - hexdec($rgb_array[1]);
 	$blue = 255 - hexdec($rgb_array[2]);
 	
-	echo $red;
-	echo $blue;
-	echo $green;
-	
+	shell_exec("pigs p 14 " . $red);
+	shell_exec("pigs p 4 " . $blue);
+	shell_exec("pigs p 24 " . $green);
+}
 
+if($brightness < 226){
+	shell_exec("pigs p 7 " . $brightness);
 }
 ?>
