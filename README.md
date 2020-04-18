@@ -24,3 +24,8 @@ Sit back, relax, its gonna be done in a bit!
 I use an amplifier for power management because I'm not an electrical engineer, and just dont wanna deal with that xD.
 <img src="https://i.imgur.com/76YU2V7.jpg" width="500" />
 
+### The (Current) UI
+Very simple. But that was kind of the point. I did this in two days over like three hours.... Lots of Remote schoolwork. 
+<img src="https://i.imgur.com/ivacW0d.png" width="500" />
+
+
