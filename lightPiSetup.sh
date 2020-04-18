@@ -20,4 +20,6 @@ sudo make install
 sudo rm /var/www/html/index.html
 sudo wget -O /var/www/html/index.php https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/index.php
 sudo mkdir /var/www/html/css/
+sudo mkdir /var/www/html/scripts/
 sudo wget -O /var/www/html/css/style.css https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/style.css
+sudo wget -O /var/www/html/scripts/lightcontrol.php https://raw.githubusercontent.com/andrewbluepiano/SignPi/master/lightcontrol.php
