@@ -1,6 +1,6 @@
 # Author: Andrew Afonso
 # https://github.com/andrewbluepiano/SignPi
-# On raspbian buster, networking enabled and configed.
+# On raspbian buster, networking enabled and basic settings (region, etc) configed.
 # Just logging setup of RPI to be LED controller in iPod sign.
 # Pins (working on my B+): 
 # Color: 4 (B), 14 (R), 24 (G)
