@@ -1,5 +1,5 @@
 # SignPi
-For an old iPod store sign I am making remote controlled. 
+For an old iPod store sign.
 
 Runs a verrrrrrryyyyyyy simple web app on the RasPi (just type the Pi's IP into your browser). Nothing else at this point.
 
