@@ -9,7 +9,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 </head>
 <body>
-	<form method="POST" action="scripts/lightcontrol.php">
+	<form class="lightcontrols" method="POST" action="scripts/lightcontrol.php">
 		<fieldset>
 			<legend>Light Controls</legend>
 			<label>Color: <input type="color" id="lightcolor" name="lightcolor" value="#ff0000"></label>
