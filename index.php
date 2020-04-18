@@ -1,6 +1,7 @@
 <?php
 /// Author: Andrew Afonso
-// Control page for SignPi
+// Description: Control page for SignPi
+// https://github.com/andrewbluepiano/SignPi
 
 // Get current values of LED Strip, inverting the RGB's as per needed, converting the RGB's to hex.
 $hexcolor = sprintf("#%02x%02x%02x", (255 - intval(shell_exec("pigs gdc 14"))), (255 - intval(shell_exec("pigs gdc 24"))), (255 - intval(shell_exec("pigs gdc 4"))));
