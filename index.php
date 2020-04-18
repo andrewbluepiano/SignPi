@@ -3,7 +3,7 @@
 // Control page for SignPi
 
 // Get current values of LED Strip, inverting the RGB's as per needed, converting the RGB's to hex.
-$hexcolor = sprintf("#%02x%02x%02x", (255 - intval(shell_exec("pigs gdc 14"))), (255 - intval(shell_exec("pigs gdc 4"))), (255 - intval(shell_exec("pigs gdc 24"))));
+$hexcolor = sprintf("#%02x%02x%02x", (255 - intval(shell_exec("pigs gdc 14"))), (255 - intval(shell_exec("pigs gdc 24"))), (255 - intval(shell_exec("pigs gdc 4"))));
 
 $brightness = intval(shell_exec("pigs gdc 7"));
 ?>
