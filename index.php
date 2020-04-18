@@ -8,6 +8,8 @@ $blue = dechex(255 - intval(shell_exec("pigs gdc 4")));
 $green = dechex(255 - intval(shell_exec("pigs gdc 24")));
 
 $brightness = intval(shell_exec("pigs gdc 7"));
+
+$hexcolor = $red . $blue . $green;
 ?>
 <!doctype html>
 <head>
