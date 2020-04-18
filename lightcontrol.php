@@ -16,6 +16,9 @@ if(strlen($colorHex) == 6){
 	$green = 255 - hexdec($rgb_array[1]);
 	$blue = 255 - hexdec($rgb_array[2]);
 	
+	echo $red;
+	echo $blue;
+	echo $green;
 	
 
 }
