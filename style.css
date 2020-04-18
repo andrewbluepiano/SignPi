@@ -102,3 +102,9 @@ legend {
 		width: 100%;
 	}
 }
+
+
+/* Styles */
+.lightcontrols{
+	max-width: 900px;
+	margin: 0 auto;
