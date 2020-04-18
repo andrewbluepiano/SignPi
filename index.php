@@ -14,6 +14,7 @@
 			<legend>Light Controls</legend>
 			<label>Color: <input type="color" id="lightcolor" name="lightcolor" value="#ff0000"></label>
 			<label>Brightness: <input type="range" id="brightness" name="brightness" min="0" max="225"></label>
+			<input id="updatelights" type="submit" value="Enter">
 		</fieldset>
 	</form>
 </body>
