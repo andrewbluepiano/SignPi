@@ -24,4 +24,6 @@ if(strlen($colorHex) == 6){
 if($brightness < 226){
 	shell_exec("pigs p 7 " . $brightness);
 }
+
+header('Location: ../');
 ?>
