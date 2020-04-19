@@ -27,6 +27,6 @@ I use an amplifier for power management because I'm not an electrical engineer, 
 ### The (Current) UI
 Very simple. But that was kind of the point, simple but functional. 
 I did this in like 3 hours split over two days... very late at night.....  lots of remote schoolwork. This was a fun break.
-<img src="https://i.imgur.com/ivacW0d.png" width="500" />
+<img src="https://i.imgur.com/t9q3kPO.png" width="500" />
 
 
