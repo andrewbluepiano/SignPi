@@ -21,7 +21,7 @@ Sit back, relax, its gonna be done in a bit!
 
 
 ### The Wires
-I use an amplifier for power management because I'm not an electrical engineer, and just dont wanna deal with that xD.
+I use an amplifier for power management because I'm not an electrical engineer, and just dont wanna deal with that xD. The resistor is because I had residual light still being generated even when the power level control pin was set to 0. 
 <img src="https://i.imgur.com/76YU2V7.jpg" width="500" />
 
 ### The (Current) UI
