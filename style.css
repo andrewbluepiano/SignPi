@@ -142,6 +142,9 @@ input[type="color"]{
 }
 
 #updatelights {
-	padding: 8px 10px;
+	padding: 8px 15px;
+	-webkit-appearance: none;
+	border: none;
+	background: #eee;
 }
 
