@@ -112,3 +112,26 @@ legend {
 	max-width: 900px;
 	margin: 0 auto;
 }
+
+input[type="color"]{
+    width: 50px;
+    height: 50px;
+}
+
+#brightness{
+    height: 20px;
+    width: 200px;
+    -webkit-appearance: none;
+    background: #d8dbdb;
+    border-radius: 10px;
+}
+
+#brightness::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50px;
+}
+
+
