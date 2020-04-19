@@ -126,8 +126,8 @@ input[type="color"]{
     border-radius: 10px;
 }
 
-#brightness::-webkit-slider-thumb {
-     -webkit-appearance: none;
+#brightness::-webkit-slider-thumb, #brightness::-moz-range-thumb {
+	-webkit-appearance: none;
     width: 20px;
     height: 20px;
     background: #000000;
