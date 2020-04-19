@@ -126,8 +126,15 @@ input[type="color"]{
     border-radius: 10px;
 }
 
-#brightness::-webkit-slider-thumb, #brightness::-moz-range-thumb {
+#brightness::-webkit-slider-thumb {
 	-webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #000000;
+    border-radius: 50px;
+}
+
+#brightness::-moz-range-thumb {
     width: 20px;
     height: 20px;
     background: #000000;
