@@ -127,7 +127,7 @@ input[type="color"]{
 }
 
 #brightness::-webkit-slider-thumb {
-	-webkit-appearance: none;
+    -webkit-appearance: none;
     width: 20px;
     height: 20px;
     background: #000000;
